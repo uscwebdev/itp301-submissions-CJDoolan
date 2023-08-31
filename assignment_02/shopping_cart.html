@@ -72,35 +72,67 @@ Shopping Cart
 		*/
 	
 	
-
+	// 2) turn price into global variable
 	var one = document.querySelector ("#price1").innerHTML;
 	var two = document.querySelector ("#price2").innerHTML;
 	var three = document.querySelector ("#price3").innerHTML;
+
+	// 4) create new global variable for subtotal
 	var total = document.querySelector("#subtotal").innerHTML
 
-		
+	// 1) detect user clickon product 	
 	document.querySelector  ("#item1").onclick =  function (){
-
+		
+		// 3) turn price into an integer
 		one = parseInt(one);
-		total= parseInt(total);
-		total = total + one;
-		document.querySelector('#subtotal').innerHTML = total;
-	}
 
+		// 5) turn subtotal into a variable
+		total= parseInt(total);
+
+		// 6)increment by price variable
+		total = total + one;
+
+		// 7)display new value
+		document.querySelector('#subtotal').innerHTML = total;
+
+
+
+		
+	}
+	// 1) detect user clickon product 
 	document.querySelector  ("#item2").onclick =  function (){
 
-		
+		// 3) turn price into an integer
 		two = parseInt(two);
+
+
+		// 5) turn subtotal into a variable
 		total= parseInt(total);
+
+		// 6)increment by price variable
 		total = total + two;
+
+
+		// 7)display new value
 		document.querySelector('#subtotal').innerHTML = total;
+
+
+
 	}
-
+	// 1) detect user clickon product 
 	document.querySelector  ("#item3").onclick =  function (){
-
+		
+		// 3) turn price into an integer
 		three = parseInt(three);
+
+
+		// 5) turn subtotal into a variable
 		total= parseInt(total);
+
+		// 6)increment by price variable
 		total = total + three;
+
+		// 7)display new value
 		document.querySelector('#subtotal').innerHTML = total;
 	}
 		
