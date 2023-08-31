@@ -1,0 +1,112 @@
+<!DOCTYPE html> <!--defines as a HTML document-->
+<html> <!--everything contained within-->
+<head>
+	<title>
+Shopping Cart
+	</title>
+
+<style>
+	h1 {
+		background-color: #87ae73;
+		text-align: center;
+	}
+	footer {
+		background-color: grey;
+		text-align: center;
+	}
+	#item1, #item2, #item3 {
+		text-align: center;
+		margin-bottom: 30px;
+		
+	}
+	
+	img {
+		width: 300px;
+	}
+	p {
+		text-align: right;
+		padding-right: 50px;
+		padding-top: 25px;
+		background-color: navy;
+		color: white;
+		height: 50px;
+	}
+</style>
+</head>
+<body>
+
+	<h1> Shopaholic </h1>
+
+	<div id="item1"> 
+		<img src= "img/item1.jpeg" alt="jacket">
+
+		<h3> Sage jacket, mens <br> $ <span id=price1>285 </span></h3>
+	</div>
+
+	<div id="item2">
+		<img src= "img/item2.jpg" alt= "dress">
+		<h3> Pocket Dress, Sage <br>  $ <span id=price2>128 </span></h3>
+	</div>
+
+	<div id="item3">
+		<img src= "img/item3.jpeg" alt= "blazer">
+		<h3> Sleek Blazer, Sage <br>$  <span id=price3>197 </span></h3>
+	</div>
+
+	<div id=sub> <p> Cart Subtotal: $ <span id=subtotal> 0 </span> </p>
+	</div>
+
+	<br>
+
+	<footer>  &copy; Christina Doolan Inc. </footer>
+
+	<script>
+	
+	/* 1) detect user clickon product 
+		2) turn price into global variable
+		3) turn price into an integer
+		4) create new global variable for subtotal
+		5) turn subtotal into a variable
+		6)increment by price variable
+		7)display new value
+		*/
+	
+	
+
+	var one = document.querySelector ("#price1").innerHTML;
+	var two = document.querySelector ("#price2").innerHTML;
+	var three = document.querySelector ("#price3").innerHTML;
+	var total = document.querySelector("#subtotal").innerHTML
+
+		
+	document.querySelector  ("#item1").onclick =  function (){
+
+		one = parseInt(one);
+		total= parseInt(total);
+		total = total + one;
+		document.querySelector('#subtotal').innerHTML = total;
+	}
+
+	document.querySelector  ("#item2").onclick =  function (){
+
+		
+		two = parseInt(two);
+		total= parseInt(total);
+		total = total + two;
+		document.querySelector('#subtotal').innerHTML = total;
+	}
+
+	document.querySelector  ("#item3").onclick =  function (){
+
+		three = parseInt(three);
+		total= parseInt(total);
+		total = total + three;
+		document.querySelector('#subtotal').innerHTML = total;
+	}
+		
+
+
+	</script>
+
+</body> 
+</html>
