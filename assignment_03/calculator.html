@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Calculator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	<style>
+		#display {
+			font-size: 2em;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<h1 class="col-12 text-center mt-5">JS Calculator</h1>
+		</div> <!-- .row -->
+		<div class="row">
+			<div id="calculator" class="mt-4 col-12 col-md-6 ml-md-auto mr-md-auto col-lg-4">
+				<div class="row">
+					<input type="text" id="display" class="col-12 text-right form-control" value="0">
+				</div> <!-- .row -->
+				<div class="row">
+					<button class="col-9 btn btn-lg btn-outline-dark" id= "clear">AC</button>
+					<button class="col-3 btn btn-lg btn-outline-dark" id="divide">/</button>
+				</div> <!-- .row -->
+				<div class="row">
+					<button class="col-3 btn btn-lg btn-outline-dark" id= "seven">7</button>
+					<button class="col-3 btn btn-lg btn-outline-dark" id= "eight">8</button>
+					<button class="col-3 btn btn-lg btn-outline-dark" id= "nine">9</button>
+					<button class="col-3 btn btn-lg btn-outline-dark" id="times">x</button>
+				</div> <!-- .row -->
+				<div class="row">
+					<button class="col-3 btn btn-lg btn-outline-dark" id= "four">4</button>
+					<button class="col-3 btn btn-lg btn-outline-dark"  id= "five">5</button>
+					<button class="col-3 btn btn-lg btn-outline-dark" id= "six">6</button>
+					<button class="col-3 btn btn-lg btn-outline-dark" id="minus">-</button>
+				</div> <!-- .row -->
+				<div class="row">
+					<button class="col-3 btn btn-lg btn-outline-dark" id= "one">1</button>
+					<button class="col-3 btn btn-lg btn-outline-dark" id= "two">2</button>
+					<button class="col-3 btn btn-lg btn-outline-dark" id= "three">3</button>
+					<button class="col-3 btn btn-lg btn-outline-dark" id="plus">+</button>
+				</div> <!-- .row -->
+				<div class="row">
+					<button class="col-6 btn btn-lg btn-outline-dark" id= "zero">0</button>
+					<button class="col-3 btn btn-lg btn-outline-dark" id="decimal"><span id="dot">.</span></button>
+					<button class="col-3 btn btn-lg btn-outline-dark" id="calc-equal">=</button>
+				</div> <!-- .row -->
+			</div> <!-- #calculator -->
+		</div> <!-- .row -->
+	</div> <!-- .container -->
+
+	<script>
+		
+		var one = document.querySelector ("#one").innerHTML;
+		var two = document.querySelector ("#two").innerHTML;
+		var three = document.querySelector ("#three").innerHTML;
+		var four = document.querySelector ("#four").innerHTML;
+		var five = document.querySelector ("#five").innerHTML;
+		var six = document.querySelector ("#six").innerHTML;
+		var seven = document.querySelector ("#seven").innerHTML;
+		var eight = document.querySelector ("#eight").innerHTML;
+		var nine = document.querySelector ("#nine").innerHTML;
+		var zero = document.querySelector ("#zero").innerHTML;
+		var decimal = document.querySelector ("#decimal").innerHTML;
+		var num1
+		var num2
+		var operation
+		
+		document.querySelector ("#one").onclick = function () {
+			one = parseFloat(one);
+
+			if (document.querySelector('#display').value == "0" ) {
+				
+			document.querySelector('#display').value = one;
+		} else {
+
+			document.querySelector('#display').value = document.querySelector('#display').value + one;
+		}
+			
+		}
+
+		document.querySelector ("#two").onclick = function () {
+			two = parseFloat(two);
+			console.log (two);
+
+			if (document.querySelector('#display').value == "0" ) {
+				
+			document.querySelector('#display').value = two;
+		} else {
+
+			document.querySelector('#display').value = document.querySelector('#display').value + two;
+		}
+			
+		}
+
+		document.querySelector ("#three").onclick = function () {
+			three = parseFloat(three);
+			if (document.querySelector('#display').value == "0" ) {
+				
+			document.querySelector('#display').value = three;
+		} else {
+
+			document.querySelector('#display').value = document.querySelector('#display').value + three;
+		}
+
+		}
+
+		document.querySelector ("#four").onclick = function () {
+			four = parseFloat(four);
+			if (document.querySelector('#display').value == "0" ) {
+				
+			document.querySelector('#display').value = four;
+		} else {
+
+			document.querySelector('#display').value = document.querySelector('#display').value + four;
+		}
+		}
+
+		document.querySelector ("#five").onclick = function () {
+			five = parseFloat(five);
+
+			 if (document.querySelector('#display').value == "0" ) {
+				
+			document.querySelector('#display').value = five;
+		} else {
+
+			document.querySelector('#display').value = document.querySelector('#display').value + five;
+		}
+		}
+
+		document.querySelector ("#six").onclick = function () {
+			six = parseFloat(six);
+			if (document.querySelector('#display').value == "0" ) {
+				
+			document.querySelector('#display').value = six;
+		} else {
+
+			document.querySelector('#display').value = document.querySelector('#display').value + six;
+		}
+		}
+
+		document.querySelector ("#seven").onclick = function () {
+			seven = parseFloat(seven);
+
+			 if (document.querySelector('#display').value == "0" ) {
+				
+			document.querySelector('#display').value = seven;
+		} else {
+
+			document.querySelector('#display').value = document.querySelector('#display').value + seven;
+		}
+		}
+
+		document.querySelector ("#eight").onclick = function () {
+			eight = parseFloat(eight);
+
+			 if (document.querySelector('#display').value == "0" ) {
+				
+			document.querySelector('#display').value = eight;
+		} else {
+
+			document.querySelector('#display').value = document.querySelector('#display').value + eight;
+		}
+		}
+
+		document.querySelector ("#nine").onclick = function () {
+			nine = parseFloat(nine);
+
+			 if (document.querySelector('#display').value == "0" ) {
+				
+			document.querySelector('#display').value = nine;
+		} else {
+
+			document.querySelector('#display').value = document.querySelector('#display').value + nine;
+		}
+		}
+
+		document.querySelector ("#zero").onclick = function () {
+			zero = parseFloat(zero);
+
+			 if (document.querySelector('#display').value == "0" ) {
+				
+			document.querySelector('#display').value = zero;
+		} else {
+
+			document.querySelector('#display').value = document.querySelector('#display').value + zero;
+		}
+		}
+
+
+
+
+
+
+	
+
+		document.querySelector  ("#decimal").onclick = function (){
+			
+				document.querySelector('#display').value = document.querySelector('#display').value + "."; 
+			}
+		
+
+		
+
+
+
+
+
+
+
+
+		document.querySelector('#clear').onclick = function (){
+
+			document.querySelector('#display').value = "0";
+		} 
+		
+
+
+
+
+
+
+
+		document.querySelector ("#divide").onclick = function (){
+			
+			num1 = document.querySelector('#display').value;
+			num1 = parseFloat(num1);
+			console.log (num1)
+			operation = '/';
+			document.querySelector('#display').value = "0";
+		}
+		document.querySelector ("#plus").onclick = function (){
+			
+			num1 = document.querySelector('#display').value;
+			num1 = parseFloat(num1);
+			console.log (num1)
+			operation = '+';
+			document.querySelector('#display').value = "0";
+		}
+		document.querySelector ("#minus").onclick = function (){
+			
+			num1 = document.querySelector('#display').value;
+			num1 = parseFloat(num1);
+			console.log (num1)
+			operation = '-';
+			document.querySelector('#display').value = "0";
+		}
+		document.querySelector ("#times").onclick = function (){
+			
+			num1 = document.querySelector('#display').value;
+			num1 = parseFloat(num1);
+			console.log (num1)
+			operation = '*';
+			document.querySelector('#display').value = "0";
+		}
+
+
+
+
+
+		document.querySelector('#calc-equal').onclick = function(){
+			var num2 = document.querySelector('#display').value;
+			num2 = parseFloat(num2);
+			var result
+
+			if (operation== "/") {
+				result =  num1 / num2;
+			} else if (operation == "+") {
+				result = num1 + num2
+			} else if (operation == "-") {
+				result = num1 - num2
+				console.log (result);
+			}else if (operation == "*") {
+				result = num1 * num2 }
+
+
+			document.querySelector('#display').value = result;
+		}
+	</script>
+</body>
+</html>
