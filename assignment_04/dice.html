@@ -1,0 +1,115 @@
+<!DOCTYPE html> <!--defines as a HTML document-->
+<html> <!--everything contained within-->
+<head>
+	<title>
+Liars Dice
+	</title>
+
+<style>
+	div {
+		margin-bottom: 15px;
+		margin-top: 15px
+	}
+	#yourGuess, h1, #results, #diceImage{
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+
+	}
+	body  {
+		background-color: #bad0ae;
+	}
+</style>
+</head>
+<body>
+
+	<h1> Liars Dice </h1>
+	<div id="yourGuess">
+		<p> Your Guess: </p>
+			
+		<input type="text" id="numberinput" >
+		<button id="guessbtn">Submit</button>
+	</div>
+	<div id="results">
+		<strong>Results: <span id="accurate"> </span></strong>
+		
+	</div>
+			
+	
+
+
+	<div id="diceImage">
+		<img id= "one" class= "diceImages" src="1.png" alt= "dice Number 1">
+		<img id= "two" class= "diceImages" src="2.png" alt= "dice Number 2">
+		<img id= "three" class= "diceImages" src="3.png" alt= "dice Number 3">
+		<img id= "four" class= "diceImages" src="4.png" alt= "dice Number 4">
+		<img id= "five" class= "diceImages" src="5.png" alt= "dice Number 5">
+		
+
+
+	</div>
+
+	<script>
+		
+	
+
+		
+		var guess
+			document.querySelector('#guessbtn').onclick = function (){
+			
+				var numbers =  [];
+
+			for (var i = 0; i < 5; i++) {
+		var randomNumbers = [Math.floor( Math.random() * 6 + 1 )];
+		numbers.push (randomNumbers);
+		console.log (numbers)
+	}
+		
+	var images = document.querySelectorAll(".diceImages")
+		console.log (images)
+
+		for (var i = 0; i < images.length; i++) {
+		 var imageName = numbers[i] + '.png' 
+		 images[i].src = imageName;
+
+		}
+		
+
+
+
+
+
+			guess = document.querySelector('#numberinput').value ;
+					
+			guess = parseInt(guess);
+			console.log(guess);	
+			
+			console.log (numbers);
+
+			var check = function(newInnerHTML, newColor) {
+				document.querySelector ("#accurate").innerHTML = newInnerHTML;
+				document.querySelector ("#accurate").style.color = newColor;
+			}
+
+
+			if (guess == numbers[0]) {
+				check("Hurray! You guessed correct!", "green");
+			}else if (guess == numbers[1]){
+				check("Hurray! You guessed correct!", "green");
+			}else if (guess == numbers[2]){
+				check("Hurray! You guessed correct!", "green");
+			}else if (guess == numbers[3]){
+				check("Hurray! You guessed correct!", "green");
+			}else if (guess == numbers[4]){
+				check("Hurray! You guessed correct!", "green");
+			} else {
+				check("Your guess was incorrect:(", "red");
+			}
+			
+
+}
+
+	</script>
+</body> 
+</html>
