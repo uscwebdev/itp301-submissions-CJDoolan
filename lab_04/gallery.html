@@ -1,0 +1,108 @@
+
+<!DOCTYPE html> <!--defines as a HTML document-->
+<html> <!--everything contained within-->
+<head>
+	<title>
+Disney Gallery
+	</title>
+
+<style>
+	h1, h3 {
+		text-align: center;
+	}
+	#thumb {
+		width: 641px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	#thumb>img {
+		width: 125px;
+		height: 200px;
+		
+	}
+	#main {
+		width: 200px;
+		height:320px;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	#main>img {
+		width: 200px;
+		height: 320px;
+		
+	}
+	
+</style>
+</head>
+<body>
+
+	<h1> Disney Princess Image Gallery </h1>
+	<div id= "main">
+	<img  id="mainimg"src= "img/Snow_white_disney.png" alt="Snow White"> </div>
+	<h3 id="name"> Snow White </h3>
+	<div id ="thumb">
+	<img id= "img1" class= "nail" src= "img/Ariel_disney.png" alt="Ariel"> 
+	<img id= "img2" class= "nail" src= "img/Aurora_(Sleeping_Beauty).png" alt="Aurora"> 
+	<img id= "img3" class= "nail" src= "img/Belle_disney.png" alt="Belle"> 
+	<img id= "img4" class= "nail" src= "img/Jasmine_(Aladdin).png" alt="Jasmine">
+	<img id= "img5" class= "nail" src= "img/Snow_white_disney.png" alt="Snow White">
+	</div>
+
+</body> 
+
+<script>
+
+	var changeMainImg = function(newSrc, newAlt, newText){
+			document.querySelector('#mainimg').src = newSrc;
+			document.querySelector('#mainimg').alt = newAlt;
+			document.querySelector('#name').innerHTML = newText;
+		}
+
+	var thumbNail = document.querySelectorAll('.nail');
+
+		for (var i = 0; i < thumbNail.length; i++) {
+			thumbNail[i].onclick = function(){
+				console.log(this);
+
+			var image1 = this.src;
+			console.log (image1);
+			var image2 = this.alt;
+			console.log (image2);
+			changeMainImg (image1, image2, image2);
+			console.log(changeMainImg)
+				
+			}
+		}
+
+
+	// document.querySelector('#img1').onclick = function(){
+	// 		document.querySelector('#mainimg').src = "img/Ariel_disney.png";
+	// 		document.querySelector('#mainimg').alt = "Ariel";
+	// 		document.querySelector("#name").innerHTML = document.querySelector('#mainimg').alt
+
+	// 	}
+	// document.querySelector('#img2').onclick = function(){
+	// 		document.querySelector('#mainimg').src = "img/Aurora_(Sleeping_Beauty).png";
+	// 		document.querySelector('#mainimg').alt = "Aurora";
+	// 		document.querySelector("#name").innerHTML = document.querySelector('#mainimg').alt
+	// 	}
+	// document.querySelector('#img3').onclick = function(){
+	// 		document.querySelector('#mainimg').src = "img/Belle_disney.png";
+	// 		document.querySelector('#mainimg').alt = "Belle";
+	// 		document.querySelector("#name").innerHTML = document.querySelector('#mainimg').alt
+	// 	}
+	// document.querySelector('#img4').onclick = function(){
+	// 		document.querySelector('#mainimg').src = "img/Jasmine_(Aladdin).png";
+	// 		document.querySelector('#mainimg').alt = "Jasmine";
+	// 		document.querySelector("#name").innerHTML = document.querySelector('#mainimg').alt
+	// 	}
+	// document.querySelector('#img5').onclick = function(){
+	// 		document.querySelector('#mainimg').src = "img/Snow_white_disney.png";
+	// 		document.querySelector('#mainimg').alt = "Snow White";
+	// 		document.querySelector("#name").innerHTML = document.querySelector('#mainimg').alt
+	// 	}
+
+</script>
+</html>
