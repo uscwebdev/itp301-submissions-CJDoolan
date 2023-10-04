@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+}
+header,
+footer {
+  background-color: #fed000;
+  font-family: fantasy;
+}
+h1 {
+  font-family: fantasy;
+}
+footer {
+  padding-bottom: 10px;
+}
+.logo {
+  height: 75px;
+  width: auto;
+}
+#copy {
+  font-size: 0.2 em;
+  margin-top: -10px;
+}
+.cartItem {
+  border: 5px solid grey;
+  height: 190px;
+  margin-bottom: 20px;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.productName {
+  font-size: 1.7em;
+}
+.details {
+  font-size: 1.3em;
+  margin-top: -20px;
+}
+.items {
+  height: 150px;
+  width: 250px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.description {
+  float: center;
+  margin-top: 20px;
+}
