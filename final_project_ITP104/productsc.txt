@@ -1,0 +1,317 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+	<title>
+Product SC
+	</title>
+
+<link rel= "stylesheet" href= "shared.css">
+
+<style>
+
+
+.img-quad {
+	
+	height: 200px;
+		margin-left:10px;
+		margin-right: 10px;
+}
+.organic {
+	margin-bottom: 50px;
+}
+	
+	#row2{
+	 	display: flex;
+	 	justify-content: center; 
+	 	
+	}
+	#beforeafter {
+		width: 380px;
+	}
+.img-duo {
+	width:250px;
+	margin: 10px;
+}
+</style>
+</head>
+<body>
+	<a href= "home.html" >
+		<img id="logo" src= "img/logo.png" alt="CJD"> </a>
+
+	<div id= "navbar">
+		
+ 		<a href= "home.html" >Home </a>
+ 		<a href= "home.html#work">Projects </a>
+ 		<a href= "resume.html">About Me </a>
+ 	</div> <!-- nav bar -->
+
+
+
+
+
+<div class="sec1">
+ 		<div  class="left">
+	 		<h1> Product SC </h1>
+	 		<p> I am a part of the USC club,  Innovation Design. In this club, I was tasked with redesigning a club logo (ProductSC) and creating a new brand identity. The first step in the process was researching the club's values, mission, and target audience, as well as the broader market context in which the club operates. With this information, I was able to develop a logo that represented the club's unique identity and resonated with its audience. This logo could then be integrated into a broader brand identity, which included colors, typography, imagery, and messaging. I worked to create a cohesive and memorable brand that could stand out in a competitive market, attracts new members, and strengthens the club's relationship with its existing ones. </p>
+	 	</div> <!-- leftsection of home screen -->
+ 		<div class="right">
+ 			<img id="banner" src="productsc/sticker3.png" alt="face image">
+ 		</div>
+
+ </div><!--  first section -->
+
+
+
+
+
+<hr>
+
+
+
+
+
+
+<div class="organic">
+ 		<div class="left-1">
+ 			<div class="title">
+	 			<img class="leaf" src="img/leaf-03.png" alt= "-">
+	 			 <h2> Templates </h2>  
+	 		</div><!--  section title -->
+	 		
+		</div> <!-- left text -->
+		<div class="description">
+				<p > I created visually appealing templates that incorporated the company's new brand colors, typography, and imagery. These templates help to create a cohesive and recognizable visual identity.  </p>
+		</div> <!-- descriptioin -->
+	</div><!--  organic post		 -->
+
+		
+	<div class="trio">
+			<div>
+
+
+				<div class="slideshow-container">
+					  <div class="mySlides1">
+					    <img class="img-trio" src="productsc/ig-main.png" alt="img">
+					  </div>
+
+					  <div class="mySlides1">
+					    <img class="img-trio" src="productsc/ig2.png" alt="img">
+					  </div>
+
+					  <div class="mySlides1">
+					    <img class="img-trio" src="productsc/ig4.png" alt="img">
+					  </div>
+
+					  <div class="mySlides1">
+					    <img class="img-trio" src="productsc/ig5.png" alt="img">
+					  </div>
+
+				
+
+					  <a class="prev" onclick="plusSlides(-1, 0)"> &#10094;</a>
+					  <a class="next" onclick="plusSlides(1, 0)"> &#10095; </a>
+					</div>
+
+			
+				<div class='text-trio'>
+					<h3> Instagram Templates </h3>
+					
+				</div> <!-- text for image one -->
+			</div> <!-- image one -->
+			<div>
+				<div class="slideshow-container">
+					  <div class="mySlides2">
+					    <img class="img-trio" src="productsc/flyer1.jpeg" alt="img">
+					  </div>
+
+					   <div class="mySlides2">
+					    <img class="img-trio" src="productsc/flyer2.jpeg" alt="img">
+					  </div>
+
+					   <div class="mySlides2">
+					    <img class="img-trio" src="productsc/flyer3.jpeg" alt="img">
+					  </div>
+
+					   <div class="mySlides2">
+					    <img class="img-trio" src="productsc/flyer4.jpeg" alt="img">
+					  </div>
+
+					 
+
+					  <a class="prev" onclick="plusSlides(-1, 1)"> &#10094;</a>
+					  <a class="next" onclick="plusSlides(1, 1)"> &#10095; </a>
+					</div>
+				<div class='text-trio'>
+					<h3> Flyer Templates </h3>
+					
+				</div> <!-- text for image three -->
+			</div> <!-- image three -->
+
+
+			<div>
+				<div class="slideshow-container">
+					  <div class="mySlides3">
+					    <img class="img-trio" src="productsc/slides-main.png" alt="img">
+					  </div>
+
+					  <div class="mySlides3">
+					    <img class="img-trio" src="productsc/slides1.png" alt="img">
+					  </div>
+
+					  <div class="mySlides3">
+					    <img class="img-trio" src="productsc/slides2.png" alt="img">
+					  </div>
+
+					  <div class="mySlides3">
+					    <img class="img-trio" src="productsc/slides3.png" alt="img">
+					  </div>
+
+	 
+
+					  <a class="prev" onclick="plusSlides(-1, 2)"> &#10094;</a>
+					  <a class="next" onclick="plusSlides(1, 2)"> &#10095; </a>
+					</div>
+				<div class='text-trio'>
+					<h3> Slideshow Templates </h3>
+					
+				</div> <!-- text for image two -->
+			</div> <!-- image two -->
+
+		</div> <!-- trio -->
+
+
+
+
+
+<div class="strip">
+		<h2> Instagram Before and After </h2>
+	</div> <!-- strip -->
+	
+	<div id= "row2">
+			<img class="img-duo" src="productsc/before.png" alt="perlman">
+			<img class="img-duo" src="productsc/after.png" alt="perlman">
+		<div id="beforeafter">
+	 			 <h2> Product SC </h2>  
+				<p class="description-p" id="productsc-descripton"> Product SC's Instagram page underwent a significant transformation. Previously, the page lacked a cohesive visual identity making it less appealing. The content posted on the page lacked consistency in terms of color schemes, typography, and imagery, making it hard for followers to identify with the brand. However, with the help of our design team, the page underwent a significant revamp. My team and I created visually appealing Instagram templates that incorporated the company's brand colors, typography, and imagery, creating a cohesive and recognizable visual identity. The templates used on the page allowed for consistency in the brand's messaging and design. As a result, the page has seen a considerable increase in engagement, with more followers interacting with and sharing the content. </p>
+			
+		</div> <!-- before/ after  -->
+		
+	</div> 
+
+
+
+
+<hr>
+
+
+
+
+
+
+<div class="organic">
+ 		<div class="left-1">
+ 			<div class="title">
+	 			<img class="leaf" src="img/leaf-03.png" alt= "-">
+	 			 <h2> Sticker Designs </h2>  
+	 		</div><!--  section title -->
+	 		
+		</div> <!-- left text -->
+		<div class="description">
+				<p > We designed various stickers for Product SC to further promote the brand. Stickers are versatile and can be used in a variety of ways, from packaging to merchandise, making them a cost-effective marketing tool. Our designs are simple, yet eye-catching, and incorporate the company's logo, colors, and messaging. These can now be used as an effective way to increase brand awareness and attract new customers. </p>
+		</div> <!-- descriptioin -->
+	</div><!--  organic post	-->
+
+<div class="trio">
+	<img class="img-quad" src="productsc/sticker4.png" alt="perlman">
+	<img class="img-quad" src="productsc/sticker5.png" alt="perlman">
+	<img class="img-quad" src="productsc/sticker6.png" alt="perlman">
+	<img class="img-quad" src="productsc/sticker7.png" alt="perlman">
+</div>
+
+<div class="trio">
+	<img class="img-trio" src="productsc/sticker1.png" alt="perlman">
+	<img class="img-trio" src="productsc/sticker2.png" alt="perlman">
+	<img class="img-trio" src="productsc/sticker3.png" alt="perlman">
+</div>
+
+
+
+<div class="button-group">
+				<div class="sc-button">
+					<form action="adobe.html">
+						<button class="scbutton" type="submit"> ← Prev Project</button> 
+					</form>
+				</div>
+				<div class="sc-button">
+					<form action="execed.html">
+							<button class="scbutton" type="submit"> Next Project → </button> 
+					</form>
+				</div>
+		</div>
+
+
+
+
+ 	 <div class= "footer-navbar">
+		<div class="links-footer">
+			<a href= "https://www.linkedin.com/in/christina-doolan-36b1a224a/" target =_blank>
+	 			<img class="linked-footer" src= "img/linkedin.png" alt= "linkedin">
+	 		</a>
+	 		<a href= "mailto:cdoolan@usc.edu" target=_blank>
+	 			<img class="mail-footer" src= "img/mail.png" alt="mail">
+	 		</a>
+		 </div> <!-- social links -->
+ 			
+		<div class="tabs">
+ 			<a href= "home.html" >Home </a>
+ 		<a href= "home.html#work">Projects </a>
+ 		<a href= "resume.html">About Me </a>
+ 		</div> <!-- page tabs -->
+	</div> <!-- nav bar -->
+
+
+<script> 
+	var slideIndex = [1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+
+	<script>
+	function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+</script> 
+</body> 
+</html>

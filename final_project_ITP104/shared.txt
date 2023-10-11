@@ -1,0 +1,255 @@
+body {
+		background-color: #f8f0e2;
+	}
+
+	#navbar{
+		display: flex;
+		justify-content: right;
+
+		margin-bottom: 150px;
+}
+
+	#navbar > a {
+		width: 75px;
+		height: 50px; 
+		display: block;
+
+		text-align: center;
+		line-height: 50px;
+		margin-left: 15px;
+		margin-right: 15px;
+
+		color: #000;
+		text-decoration: none; 
+	}
+
+	#navbar a:hover {
+	color: #ffa07a;
+
+	} 
+	#logo{
+		
+		height: 45px;
+		float: left;
+	}
+
+hr{
+		height: 2px;
+		background-color: #ecd9ba;
+		border: none;
+		margin-top: 75px;
+		margin-bottom: 75px;
+		}
+
+.leaf{
+		width: 50px;
+		height:50px;
+		display: flex;
+		justify-content: left;
+		margin-top: 10px;
+
+	}
+
+
+
+.organic, .trio{
+	 	display: flex;
+	 	justify-content: center; 
+	 	
+	}
+
+	.left-1 {
+		margin-right: 25px;
+	}
+
+
+	.title {
+			display: flex;
+			margin-right: 15px;
+		}
+
+
+		.description {
+		width: 500px;
+		margin-left: 25px
+		
+	}
+
+	.text-trio {
+		background-color:#faaa8d;
+		margin-left: 10px;
+		margin-right: 10px;
+		padding: 10px;
+		width: 380px;
+		height:auto;
+		
+
+			}
+	.img-trio {
+		width:380px;
+		margin-left:10px;
+		margin-right: 10px;
+	}
+
+
+.strip {
+		background-color: #afba93;
+		text-align: center;
+		margin-top: 100px;
+		margin-bottom: 100px;
+
+}
+
+
+.sec1 {
+	 	display: flex;
+	 	justify-content: center; 
+	 	margin-bottom: 130px;
+
+	}
+	.left {
+		width:500px;
+		margin-left: 150px;
+		margin-right:15px;
+		margin-top: 50px;
+	
+	}
+	.right {
+		width: 500px;
+		margin-right: 150px;
+		background-color: #ecd9ba;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	#banner {
+		width:480px;
+		height: auto;
+		margin: 10px;
+		display:flex;
+		
+		
+	}
+
+.footer-navbar {
+	margin-top: 100px;
+}
+
+	.linked-footer, .mail-footer {
+		height: 30px;
+
+		margin: 5px 15px;
+		
+	}
+	.links-footer{
+		float: left;
+		background-color: #afba93;
+		height: 40px;
+	}
+	.tabs{
+		display: flex;
+		justify-content: right;
+		background-color: #afba93;
+		height: 40px;
+}
+
+	.tabs > a {
+		display: block;
+
+		text-align: center;
+	
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-top:10px;
+
+		color: #000;
+		text-decoration: none; 
+	}
+
+	.tabs a:hover {
+	color: #ecd9ba;
+
+	} 
+
+	button {
+		background-color: #faaa8d;
+		border: none;
+		padding: 15px 32px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+		border-radius: 8px;
+		margin-top: 10px;
+	}
+
+	.sc-button {
+		display: flex;
+	 	justify-content: center; 
+	 	margin-top: 75px;
+	 	margin-bottom: 50px;
+	 
+	}
+
+	.button-group{
+		display:flex;
+		justify-content: center;
+
+	}
+	.scbutton {
+		margin-left: 250px;
+		margin-right: 250px;
+	}
+
+	* {box-sizing: border-box}
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5{display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #faaa8d;
+}
+
+
+
+
+
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}

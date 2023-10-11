@@ -1,0 +1,391 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+	<title>
+Adobe
+	</title>
+
+<link rel= "stylesheet" href= "shared.css">
+<style>
+
+
+	.trio {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.text-trio {
+		height: 250px;
+	}
+</style>
+</head>
+<body>
+	<a href= "home.html" >
+		<img id="logo" src= "img/logo.png" alt="CJD"> </a>
+
+	<div id= "navbar">
+		
+ 		<a href= "home.html" >Home </a>
+ 		<a href= "home.html#work">Projects </a>
+ 		<a href= "resume.html">About Me </a>
+ 	</div> <!-- nav bar -->
+
+
+
+
+
+ 	<div class="sec1">
+ 		<div  class="left">
+	 		<h1> Adobe Work </h1>
+	 		<p> I have taken various courses during my time at USC focusing on Adobe software and other digital illustration platforms. Adobe is a software company that offers a wide range of design software used by professionals and individuals alike. Some of the most popular design software in their suite includes Adobe Photoshop, Illustrator, InDesign, and Acrobat. With this software, users can create and edit images, graphics, videos, and other types of digital content. </p>
+	 	</div> <!-- leftsection of home screen -->
+ 		<div class="right">
+ 			<img id="banner" src="adobe/vector-combo.jpeg" alt="face image">
+ 		</div>
+ 	</div>
+
+
+
+
+
+
+ 		<hr>
+
+
+
+
+
+
+<div class="container reveal active">
+
+			<div class="organic">
+ 		<div class="left-1">
+ 			<div class="title">
+	 			<img class="leaf" src="img/leaf-03.png" alt= "-">
+	 			 <h2> Illustrator </h2>  
+	 		</div><!--  section title -->
+	 		
+		</div> <!-- left text -->
+		<div class="description">
+				<p > I use Illustrator to create vector graphics and logos. Adobe Illustrator is very versatile, precise, customizable, and easy to learn. </p>
+		</div> <!-- descriptioin -->
+	</div><!--  organic post		 -->
+
+
+
+
+
+
+
+ <div class="trio">
+			<div>
+				<div class="slideshow-container">
+					  <div class="mySlides1">
+					    <img class="img-trio" src="adobe/line1.jpeg" alt="img">
+					  </div>
+
+					  <div class="mySlides1">
+					    <img class="img-trio" src="adobe/line2.jpeg" alt="img">
+					  </div>
+
+					  <div class="mySlides1">
+					    <img class="img-trio" src="adobe/line3.jpeg" alt="img">
+					  </div>
+
+					  <div class="mySlides1">
+					    <img class="img-trio" src="adobe/line4.jpeg" alt="img">
+					  </div>
+
+					  <div class="mySlides1">
+					    <img class="img-trio" src="adobe/line5.jpeg" alt="img">
+					  </div>
+
+					    <div class="mySlides1">
+					    <img class="img-trio" src="adobe/line6.jpeg" alt="img">
+					  </div>
+
+					  <a class="prev" onclick="plusSlides(-1, 0)"> &#10094;</a>
+					  <a class="next" onclick="plusSlides(1, 0)"> &#10095; </a>
+					</div>
+				<div class='text-trio'>
+					<h3> Line Art Collection </h3>
+					<p> This project aimed to create a series of high-quality line art illustrations using Adobe Illustrator, a powerful vector graphics software. I selected a variety of subjects to create a series of high-quality line art illustrations that can be used for a variety of applications, such as book covers, editorial illustrations, and merchandise designs. This project helps explore the possibilities of traditional drawing techniques in a digital format. </p>
+				</div> <!-- text for image one -->
+			</div> <!-- image one -->
+		
+			<div>
+				<div class="slideshow-container">
+					  <div class="mySlides2">
+					    <img class="img-trio" src="adobe/pb3.png" alt="img">
+					  </div>
+
+					  <div class="mySlides2">
+					    <img class="img-trio" src="adobe/pb1.png" alt="img">
+					  </div>
+
+					  <div class="mySlides2">
+					    <img class="img-trio" src="adobe/pb2.png" alt="img">
+					  </div>
+
+
+					  <a class="prev" onclick="plusSlides(-1, 1)"> &#10094;</a>
+					  <a class="next" onclick="plusSlides(1, 1)"> &#10095; </a>
+					</div>
+
+				<div class='text-trio'>
+					<h3> Personal Branding</h3>
+					<p> Designing a personal brand using Adobe Illustrator involved creating a visual identity that represented my unique qualities, values, and skills. The goal was to create a consistent and memorable brand so I could stand out in my personal and professional life.</p>
+				</div> <!-- text for image two -->
+			</div> <!-- image two -->
+
+			<div>
+				<div class="slideshow-container">
+					  <div class="mySlides3">
+					    <img class="img-trio" src="adobe/dog1.png" alt="img">
+					  </div>
+
+					  <div class="mySlides3">
+					    <img class="img-trio" src="adobe/dog1.1.png" alt="img">
+					  </div>
+
+					  <div class="mySlides3">
+					    <img class="img-trio" src="adobe/dog2.png" alt="img">
+					  </div>
+
+					  <div class="mySlides3">
+					    <img class="img-trio" src="adobe/dog2.2.png" alt="img">
+					  </div>
+
+					  <div class="mySlides3">
+					    <img class="img-trio" src="adobe/doge.png" alt="img">
+					  </div>
+
+					  <div class="mySlides3">
+					    <img class="img-trio" src="adobe/dog3.1.png" alt="img">
+					  </div>
+
+					  <div class="mySlides3">
+					    <img class="img-trio" src="adobe/dog4.png" alt="img">
+					  </div>
+
+					  <div class="mySlides3">
+					    <img class="img-trio" src="adobe/dog4.1.png" alt="img">
+					  </div>
+
+					  <div class="mySlides3">
+					    <img class="img-trio" src="adobe/dog5.png" alt="img">
+					  </div>
+
+					  <div class="mySlides3">
+					    <img class="img-trio" src="adobe/dog5.1.png" alt="img">
+					  </div>
+
+					  <div class="mySlides3">
+					    <img class="img-trio" src="adobe/dog6.png" alt="img">
+					  </div>
+
+					  <div class="mySlides3">
+					    <img class="img-trio" src="adobe/dog6.1.png" alt="img">
+					  </div>
+
+					
+
+
+					  <a class="prev" onclick="plusSlides(-1, 2)"> &#10094;</a>
+					  <a class="next" onclick="plusSlides(1, 2)"> &#10095; </a>
+					</div>
+
+
+				<div class='text-trio'>
+					<h3> Dog to line collection</h3>
+					<p>  This was another line art collection where I used vectors to create a realistic drawing, using minimal shading and color. The subject for this project was a variety of dogs. I focused on form and line weight to create expressive and dynamic line art. I wanted the vectorized dogs to be recognizable.</p>
+				</div> <!-- text for image three -->
+			</div> <!-- image three -->
+		</div> <!-- trio -->
+
+
+	</div>
+
+
+
+
+<hr>
+
+
+
+
+
+
+<div class="container reveal active">
+ 	<div class="organic">
+ 		<div class="left-1">
+ 			<div class="title">
+	 			<img class="leaf" src="img/leaf-03.png" alt= "-">
+	 			 <h2> Photoshop </h2>  
+	 		</div><!--  section title -->
+	 		
+		</div> <!-- left text -->
+		<div class="description">
+				<p > Adobe Photoshop is commonly used for photo editing, graphic design, and digital art. Through this, I can refine colors, add filters, and manipulate images in various ways.  </p>
+		</div> <!-- descriptioin -->
+	</div><!--  organic post		 -->
+
+
+
+
+
+ <div class="trio">
+			<div>
+				<img class="img-trio" src="adobe/movie.png" alt="perlman">
+				<div class='text-trio'>
+					<h3> Movie Poster Redesign </h3>
+					<p> This project aimed to create a promotional movie poster for a film that had already been released. In this project, students explored the interaction between image and text as well as experimented with large-scale printing. The following process book shows the steps that were taken to create the poster. </p>
+				</div> <!-- text for image one -->
+			</div> <!-- image one -->
+		
+			<div>
+				<div class="slideshow-container">
+					  <div class="mySlides4">
+					    <img class="img-trio" src="adobe/vector1.png" alt="img">
+					  </div>
+
+					  <div class="mySlides4">
+					    <img class="img-trio" src="adobe/vector2.png" alt="img">
+					  </div>
+
+					  <div class="mySlides4">
+					    <img class="img-trio" src="adobe/vector3.png" alt="img">
+					  </div>
+
+					  <div class="mySlides4">
+					    <img class="img-trio" src="adobe/vector4.png" alt="img">
+					  </div>
+
+					 
+					  <a class="prev" onclick="plusSlides(-1, 3)"> &#10094;</a>
+					  <a class="next" onclick="plusSlides(1, 3)"> &#10095; </a>
+					</div>
+
+				<div class='text-trio'>
+					<h3> Vector Portraits</h3>
+					<p> For this project, I created a series of vector portraits using Adobe Photoshop. I challenged myself to use Photoshop's vector tools to create highly detailed and realistic portraits while maintaining the scalability of vector graphics. </p>
+				</div> <!-- text for image two -->
+			</div> <!-- image two -->
+
+			<div>
+				<div>
+				<div class="slideshow-container">
+					  <div class="mySlides5">
+					    <img class="img-trio" src="adobe/misc1.png" alt="img">
+					  </div>
+
+					  <div class="mySlides5">
+					    <img class="img-trio" src="adobe/misc2.png" alt="img">
+					  </div>
+
+					  <div class="mySlides5">
+					    <img class="img-trio" src="adobe/misc3.png" alt="img">
+					  </div>
+
+					 
+					  <a class="prev" onclick="plusSlides(-1, 4)"> &#10094;</a>
+					  <a class="next" onclick="plusSlides(1, 4)"> &#10095; </a>
+					</div>
+
+				<div class='text-trio'>
+					<h3>Miscellaneous Designs</h3>
+					<p> These miscellaneous photos were all made on Adobe Photoshop. They encompass a wide range of digital images that have been created or edited using the software. These images include digital paintings, photo composites, collages, and abstract designs, among others. </p>
+				</div> <!-- text for image three -->
+			</div> <!-- image three -->
+		</div> <!-- trio -->
+
+
+</div>
+</div>
+
+
+
+
+	<div class="button-group">
+				<div class="sc-button">
+					<form action="dynamic.html">
+						<button class="scbutton" type="submit"> ← Prev Project</button> 
+					</form>
+				</div>
+				<div class="sc-button">
+					<form action="productsc.html">
+							<button class="scbutton" type="submit"> Next Project → </button> 
+					</form>
+				</div>
+		</div>
+
+
+
+
+		<div class= "footer-navbar">
+		<div class="links-footer">
+			<a href= "https://www.linkedin.com/in/christina-doolan-36b1a224a/" target =_blank>
+	 			<img class="linked-footer" src= "img/linkedin.png" alt= "linkedin">
+	 		</a>
+	 		<a href= "mailto:cdoolan@usc.edu" target=_blank>
+	 			<img class="mail-footer" src= "img/mail.png" alt="mail">
+	 		</a>
+		 </div> <!-- social links -->
+ 			
+		<div class="tabs">
+ 			<a href= "home.html" >Home </a>
+ 		<a href= "home.html#work">Projects </a>
+ 		<a href= "resume.html">About Me </a>
+ 		</div> <!-- page tabs -->
+	</div> <!-- nav bar -->
+
+
+<script> 
+	var slideIndex = [1,1,1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3","mySlides4", "mySlides5"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+showSlides(1, 3);
+showSlides(1, 4);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+
+
+	<script>
+	function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+</script> 
+
+
+</body> 
+</html>

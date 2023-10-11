@@ -1,0 +1,241 @@
+<!DOCTYPE html> 
+<html><head>
+	<title>
+UX/UI
+	</title>
+
+	<meta name="description" content="Dynamic Designs Section of Christina Doolan's design portfolio. Works include website coding and website creation. All produced for fun or for class projects">
+
+<link rel="stylesheet" href="shared.css">
+<style>
+
+	.section {
+			max-width: 100%;
+			margin: auto;
+		}
+		
+		iframe {
+			width: 71%;
+			height: 500px;
+			display:flex;
+			margin-left: auto;
+			margin-right: auto;
+	
+		}
+.buttonss {
+	display:flex;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #faaa8d;
+
+}
+.link {
+	text-decoration: none;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left: 35px;
+	margin-right:35px;
+
+}
+
+#psych {
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom:50px;
+	margin-top: 25px;
+}
+
+</style>
+</head>
+<body>
+	<a href="home.html">
+		<img id="logo" src="img/logo.png" alt="CJD"> </a>
+
+	<div id="navbar">
+		
+ 		<a href="home.html">Home </a>
+ 		<a href="home.html#work">Projects </a>
+ 		<a href="resume.html">About Me </a>
+ 	</div> <!-- nav bar -->
+
+
+
+
+
+
+
+
+ 	<div class="sec1">
+ 		<div class="left">
+	 		<h1> UX/UI Designs </h1>
+	 		<p>The designs below include website coding and website designing. The goal for these dynamic designs was to engage users and enhance their experience by creating a visually appealing and easy-to-use interface.</p>
+	 	</div> <!-- leftsection of home screen -->
+ 		<div class="right">
+ 			<img id="banner" src="dynamic/brain.png" alt="face image">
+ 		</div>
+ 	</div>
+
+
+
+
+
+
+
+
+
+
+<hr>
+
+
+
+
+<div class="container reveal active">
+
+<div class="organic">
+ 		<div class="left-1">
+ 			<div class="title">
+	 			<img class="leaf" src="img/leaf-03.png" alt="-">
+	 			 <h2> Design Portfolio Website</h2>  
+	 		</div><!--  section title -->
+	 		
+		</div> <!-- left text -->
+		<div class="description">
+				<p> As a developer, I found it incredibly rewarding to code my own design portfolio website. It allowed me to showcase my skills and creativity in both design and development. I started by sketching out my ideas on paper and creating a wireframe. Then, I translated those ideas into code using HTML, CSS, and JavaScript. It was a challenge to make sure the site was visually appealing while also being user-friendly. I enjoyed experimenting with different layouts, typography, and color schemes until I found the perfect combination. Overall, coding my design portfolio was a great experience that allowed me to combine my passion for design and development.</p>
+		</div> <!-- descriptioin -->
+	</div><!--  organic post		 -->
+
+
+
+
+
+<div class="strip">
+		<h2> Wireframe </h2>
+	</div> 
+
+	<div class="section">
+		<div class="buttonss">
+			<a target="my-frame" href="img/Home.pdf" class="link"> Home page</a>
+			<a target="my-frame" href="img/Marshall.pdf" class="link"> ExecEd page</a>
+			<a target="my-frame" href="img/Product_SC.pdf" class="link"> Product SC  page</a>
+			<a target="my-frame" href="img/Adobe.pdf" class="link"> Adobe page</a>
+			<a target="my-frame" href="img/dynamic_designs.pdf" class="link"> Dynamic Designs page</a>
+			<a target="my-frame" href="img/resume.pdf" class="link"> Resume page</a>
+		</div>
+
+		<iframe name="my-frame" src="img/Home.pdf"> </iframe>
+
+</div>
+
+
+<div class="strip">
+		<h2> Code (HTML, CSS, and JavaScript) </h2>
+	</div> 
+	<div class="section">
+		<div class="buttonss">
+			<a target="my-frame" href="home.txt" class="link"> Home page</a>
+			<a target="my-frame" href="execed.txt" class="link"> ExecEd page</a>
+			<a target="my-frame" href="productsc.txt" class="link"> Product SC  page</a>
+			<a target="my-frame" href="adobe.txt" class="link"> Adobe page</a>
+			<a target="my-frame" href="dynamic.txt" class="link"> Dynamic Designs page</a>
+			<a target="my-frame" href="resume.txt" class="link"> Resume page</a>
+		</div>
+
+		<iframe name="my-frame" src="home.txt"> </iframe>
+
+
+	</div>
+</div>
+
+<hr>
+
+
+
+
+
+
+
+<div class="container reveal active">
+
+<div class="organic">
+ 		<div class="left-1">
+ 			<div class="title">
+	 			<img class="leaf" src="img/leaf-03.png" alt="-">
+	 			 <h2> Website: Psychology of Design</h2>  
+	 		</div><!--  section title -->
+	 		
+		</div> <!-- left text -->
+		<div class="description">
+				<p> The goal of this website was to show users how they might construct their own site in a way that was both visually appealing and understandable. The 5 main topics I focused on were Shape, Color, Mental Models, Gestalt Principles, and Dual Processing. I wanted to combine psychology principles and design principles into an interactive and educational page. </p>
+		</div> <!-- descriptioin -->
+	</div><!--  organic post		 -->
+
+			<form action="https://cdoolan0.wixsite.com/psychology-of-design" target="_blank">
+						<button class="scbutton" id="psych" type="submit"> View website in new browser </button> 
+					</form>
+	<div class="section">
+		<iframe src="https://cdoolan0.wixsite.com/psychology-of-design" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+</div>
+</div>
+
+
+
+
+		<div class="button-group">
+				<div class="sc-button">
+					<form action="execed.html">
+						<button class="scbutton" type="submit"> ← Prev Project</button> 
+					</form>
+				</div>
+				<div class="sc-button">
+					<form action="adobe.html">
+							<button class="scbutton" type="submit"> Next Project → </button> 
+					</form>
+				</div>
+		</div>
+
+
+	<div class="footer-navbar">
+		<div class="links-footer">
+			<a href="https://www.linkedin.com/in/christina-doolan-36b1a224a/" target="_blank">
+	 			<img class="linked-footer" src="img/linkedin.png" alt="linkedin">
+	 		</a>
+	 		<a href="mailto:cdoolan@usc.edu" target="_blank">
+	 			<img class="mail-footer" src="img/mail.png" alt="mail">
+	 		</a>
+		 </div> <!-- social links -->
+ 			
+		<div class="tabs">
+ 			<a href="home.html">Home </a>
+ 		<a href="home.html#work">Projects </a>
+ 		<a href="resume.html">About Me </a>
+ 		</div> <!-- page tabs -->
+	</div> <!-- nav bar -->
+
+
+<script>
+	function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+</script> 
+
+
+ 
+
+</body></html>
