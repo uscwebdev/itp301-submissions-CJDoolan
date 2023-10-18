@@ -275,18 +275,18 @@ img {vertical-align: middle;}
 .arrow {
 	width: 40px;
 }
-#item {
+.item {
 	padding:10px;
 	background-color: #faaa8d;
 	border-radius: 5px;
 }
 
-	#row2{
+	.row2{
 	 	display: flex;
 	 	justify-content: center; 
 	 	
 	}
-	#beforeafter {
+	.beforeafter {
 		width: 380px;
 	}
 .img-duo {
